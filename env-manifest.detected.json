@@ -1,0 +1,769 @@
+{
+  "product": "ego-lite",
+  "path": "/home/toxic/pens/ranch/products/ego-lite",
+  "files": 161,
+  "detected_at": "2026-10-30T06:11:06.538913Z",
+  "env_vars": {
+    "ACTION_TARGET_STATE_FUNCTIONS": [
+      "package/ego-browser/src/driver/action-target.ts"
+    ],
+    "ACTION_TARGET_STATE_HELPERS": [
+      "package/ego-browser/src/driver/action-target.test.mjs",
+      "package/ego-browser/src/driver/action-target.ts",
+      "package/ego-browser/src/driver/page-actions.ts",
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "ALT_MODIFIER": [
+      "package/ego-browser/src/driver/keyboard.ts"
+    ],
+    "COMPOSED_PARENT_HELPER": [
+      "package/ego-browser/src/driver/action-target.ts"
+    ],
+    "COMPOSED_TREE_HELPERS": [
+      "package/ego-browser/src/driver/action-target.ts",
+      "package/ego-browser/src/driver/page-input.ts"
+    ],
+    "CREATED_SPACE_TAB_TIMEOUT_MS": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "CTRL_MODIFIER": [
+      "package/ego-browser/src/driver/keyboard.ts"
+    ],
+    "DEFAULT_EGO_CLI": [
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "EDIT_ACTION_TARGET_HELPERS": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "EGO_BROWSER_AGENT_WORKSPACE": [
+      "package/ego-browser/src/env.ts",
+      "package/ego-browser/src/learning/index.ts"
+    ],
+    "EGO_BROWSER_NAME": [
+      "package/ego-browser/src/state.ts"
+    ],
+    "EGO_BROWSER_PAGE_BUDGET": [
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-labels.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/ego-source.mjs",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "EGO_BROWSER_REAL_E2E_CLI": [
+      "package/ego-browser/scripts/real-browser-e2e/ego-browser-cli.mjs",
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "EGO_BROWSER_REAL_E2E_KEEP": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "EGO_BROWSER_REAL_E2E_ONLY": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "EGO_BROWSER_STATE_DIR": [
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-delayed-popup.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-labels.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-load-states.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/ego-source.mjs",
+      "package/ego-browser/src/helpers.test.mjs",
+      "package/ego-browser/src/page-ledger.ts"
+    ],
+    "EGO_CLI": [
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "HEAD_REF": [
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "HIT_TARGET_HELPERS": [
+      "package/ego-browser/src/driver/action-target.test.mjs",
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "HOME": [
+      "package/ego-browser/src/env.ts"
+    ],
+    "IFS": [
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "META_MODIFIER": [
+      "package/ego-browser/src/driver/keyboard.ts"
+    ],
+    "OPEN_SHADOW_QUERY_HELPER": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "PACKAGE_DIR": [
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "PAGE_CLOSE_CONFIRM_TIMEOUT_MS": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "SCRIPT_DIR": [
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "SCROLL_TARGET_FUNCTIONS": [
+      "package/ego-browser/src/driver/action-target.ts"
+    ],
+    "SCROLL_TARGET_HELPERS": [
+      "package/ego-browser/src/driver/action-target.test.mjs",
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "SDK_PATH": [
+      "package/ego-browser/scripts/repro-popup-foreground.sh"
+    ],
+    "SHIFT_MODIFIER": [
+      "package/ego-browser/src/driver/keyboard.ts"
+    ],
+    "SKILL_PATH": [
+      "plugins/ego/dsh/src/index.js"
+    ],
+    "STALE_SKILL_PREFIX": [
+      "package/ego-browser/src/skill-migration.ts"
+    ],
+    "SystemRoot": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "TMPDIR": [
+      "skills/ego-browser/scripts/install.sh"
+    ],
+    "USERPROFILE": [
+      "package/ego-browser/src/env.ts"
+    ],
+    "access": [
+      "package/ego-browser/src/ego-errors.ts"
+    ],
+    "actionName": [
+      "package/ego-browser/src/driver/page-actions.ts",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "actual": [
+      "package/ego-browser/scripts/check-skill-translation.mjs"
+    ],
+    "apiName": [
+      "package/ego-browser/src/page-model.ts",
+      "package/ego-browser/src/public-api-schema.ts"
+    ],
+    "apostropheSelector": [
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-selector-compatibility.mjs"
+    ],
+    "argName": [
+      "package/ego-browser/src/learning/validate-learning-format.ts"
+    ],
+    "argument": [
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "assertions": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "asset": [
+      "plugins/ego/tests/cross-host-plugin.test.mjs"
+    ],
+    "backendNodeId": [
+      "package/ego-browser/src/snapshot-result.test.mjs"
+    ],
+    "baseUrl": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "blocker": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "body": [
+      "package/ego-browser/scripts/real-browser-e2e/ego-source.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs",
+      "package/ego-browser/src/output-sink.ts"
+    ],
+    "branch": [
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "budget": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "button": [
+      "package/ego-browser/src/driver/pointer.ts"
+    ],
+    "candidate": [
+      "package/ego-browser/src/snapshot-result.test.mjs"
+    ],
+    "candidateCount": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "candidates": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "canonicalPath": [
+      "package/ego-browser/scripts/check-skill-translation.mjs"
+    ],
+    "canonicalRoot": [
+      "package/ego-browser/scripts/validate-site-skills.ts"
+    ],
+    "char": [
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "chord": [
+      "package/ego-browser/src/driver/page-keyboard.ts"
+    ],
+    "claudePluginRoot": [
+      "plugins/ego/tests/claude-plugin-mode-isolation.test.mjs"
+    ],
+    "code": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs",
+      "package/ego-browser/scripts/real-browser-e2e/run-command.mjs",
+      "package/ego-browser/src/page-model.test.mjs",
+      "package/ego-browser/src/run.ts"
+    ],
+    "columnNumber": [
+      "package/ego-browser/src/run.ts"
+    ],
+    "command": [
+      "package/ego-browser/scripts/real-browser-e2e/run-command.mjs",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "compacted": [
+      "package/ego-browser/src/snapshot-result.ts"
+    ],
+    "condition": [
+      "package/ego-browser/src/driver/pointer.ts"
+    ],
+    "content": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "count": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "crossSiteBaseUrl": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "def": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "delayMs": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "desc": [
+      "package/ego-browser/src/cdp-eval.ts",
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "description": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "detail": [
+      "package/ego-browser/src/clipboard.ts",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "details": [
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "digit": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "discoveries": [
+      "package/ego-browser/src/driver/page-waits.test.mjs"
+    ],
+    "discoveryTimeouts": [
+      "package/ego-browser/src/driver/page-waits.test.mjs",
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "egoBrowserCli": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "egoBrowserSdkPath": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "elementsExpression": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "endFragment": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "endHtml": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "error": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs",
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "escaped": [
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "expectedOutput": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "expression": [
+      "package/ego-browser/src/cdp-eval.ts",
+      "package/ego-browser/src/page-model.ts",
+      "package/ego-browser/src/run-output-sink.test.mjs",
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "failed": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "field": [
+      "plugins/ego/tests/cross-host-plugin.test.mjs"
+    ],
+    "filename": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "findExpr": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "fragment": [
+      "package/ego-browser/src/clipboard.test.mjs"
+    ],
+    "frameId": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "frameLabel": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "frameMarkup": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "globalName": [
+      "package/ego-browser/src/page-context-guard.ts",
+      "package/ego-browser/src/run-output-sink.test.mjs"
+    ],
+    "guideSource": [
+      "package/ego-browser/scripts/build.mjs"
+    ],
+    "hardStopMessage": [
+      "package/ego-browser/src/output-sink.ts"
+    ],
+    "header": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "heading": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "hexEscapeSelector": [
+      "package/ego-browser/scripts/real-browser-e2e/cases/page-selector-compatibility.mjs"
+    ],
+    "hint": [
+      "package/ego-browser/src/driver/page-keyboard.ts",
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "host": [
+      "plugins/ego/tests/cross-host-plugin.test.mjs"
+    ],
+    "html": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "iframeUrl": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "index": [
+      "package/ego-browser/src/page-model.test.mjs",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "installation": [
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "inventory": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "kind": [
+      "package/ego-browser/src/browser-runtime.ts",
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "label": [
+      "package/ego-browser/src/browser-runtime.ts",
+      "package/ego-browser/src/learning/index.ts",
+      "package/ego-browser/src/page-ledger.ts",
+      "package/ego-browser/src/page-model.ts",
+      "plugins/ego/tests/claude-plugin-mode-isolation.test.mjs",
+      "plugins/ego/tests/cross-host-plugin.test.mjs",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "legacy": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "limit": [
+      "package/ego-browser/src/page-model.ts",
+      "plugins/ego/tests/cross-host-plugin.test.mjs"
+    ],
+    "line": [
+      "package/ego-browser/src/clipboard.ts",
+      "package/ego-browser/src/index.ts"
+    ],
+    "loc": [
+      "package/ego-browser/src/cdp-eval.ts"
+    ],
+    "managed": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "marker": [
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "maxGuideLength": [
+      "package/ego-browser/scripts/build.mjs"
+    ],
+    "maxPosts": [
+      "skills/ego-browser/learnings/x-com/tools/timeline.js"
+    ],
+    "maxResults": [
+      "skills/ego-browser/learnings/github/tools/search-repos.js",
+      "skills/ego-browser/learnings/google/tools/search-extract.js"
+    ],
+    "member": [
+      "package/ego-browser/src/skill-migration.ts"
+    ],
+    "message": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs",
+      "package/ego-browser/src/driver/page-actions.ts",
+      "package/ego-browser/src/driver/pointer.ts",
+      "package/ego-browser/src/ego-errors.ts",
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/page-model.ts",
+      "package/ego-browser/src/public-api-schema.ts"
+    ],
+    "method": [
+      "package/ego-browser/src/browser-runtime.test.mjs",
+      "package/ego-browser/src/browser-runtime.ts",
+      "package/ego-browser/src/driver/downloads.ts",
+      "package/ego-browser/src/driver/page-waits.test.mjs",
+      "package/ego-browser/src/driver/page-waits.ts",
+      "package/ego-browser/src/page-model.test.mjs",
+      "package/ego-browser/src/skill-migration.test.mjs",
+      "package/ego-browser/src/snapshot-result.test.mjs"
+    ],
+    "methodName": [
+      "package/ego-browser/src/driver/page-input.ts"
+    ],
+    "missing": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "mode": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "name": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs",
+      "package/ego-browser/src/cdp-eval.test.mjs",
+      "package/ego-browser/src/clipboard.test.mjs",
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/help-runtime.ts",
+      "package/ego-browser/src/helpers.test.mjs",
+      "package/ego-browser/src/public-api-schema.test.mjs",
+      "package/ego-browser/src/public-api-schema.ts",
+      "package/ego-browser/src/taskspace-e2e.test.mjs",
+      "package/ego-browser/src/workflows.test.mjs",
+      "plugins/ego/dsh/src/index.js",
+      "plugins/ego/tests/dsh-plugin.test.mjs",
+      "plugins/ego/tests/plugin-packaging.test.mjs",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "nameOrId": [
+      "package/ego-browser/src/helpers.ts"
+    ],
+    "nestedFrame": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "nextStep": [
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "number": [
+      "package/ego-browser/src/driver/page-keyboard.ts"
+    ],
+    "openedBy": [
+      "package/ego-browser/src/page-ledger.ts"
+    ],
+    "openerLabel": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "operation": [
+      "package/ego-browser/src/driver/page-actions.ts",
+      "package/ego-browser/src/driver/page-keyboard.ts"
+    ],
+    "opt": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "optionName": [
+      "package/ego-browser/src/public-api-schema.ts"
+    ],
+    "options": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "origin": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "originalMessage": [
+      "package/ego-browser/src/page-context-guard.ts",
+      "package/ego-browser/src/run.ts"
+    ],
+    "other": [
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "outcome": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "pageLabel": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "paramSig": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "params": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "parentPid": [
+      "package/ego-browser/src/page-ledger.ts"
+    ],
+    "passed": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "path": [
+      "package/ego-browser/src/page-ledger.ts",
+      "package/ego-browser/src/page-model.ts",
+      "plugins/ego/tests/claude-plugin-mode-isolation.test.mjs",
+      "plugins/ego/tests/cross-host-plugin.test.mjs",
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "payload": [
+      "package/ego-browser/src/http.ts"
+    ],
+    "pluginRoot": [
+      "plugins/ego/tests/cross-host-plugin.test.mjs",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "pointExpression": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "popupHint": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "portable": [
+      "plugins/ego/tests/claude-plugin-mode-isolation.test.mjs"
+    ],
+    "prefix": [
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/learning/validate-learning-format.ts",
+      "package/ego-browser/src/output-sink.ts"
+    ],
+    "props": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "queries": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "raw": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "reason": [
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "received": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "ref": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "refId": [
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "relativeDir": [
+      "package/ego-browser/scripts/build.mjs"
+    ],
+    "requirements": [
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "rest": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "retStr": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "role": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "root": [
+      "package/ego-browser/scripts/validate-site-skills.ts",
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "searchedRoot": [
+      "package/ego-browser/src/learning/index.ts"
+    ],
+    "selector": [
+      "package/ego-browser/src/driver/page-waits.ts",
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/snapshot-result.test.mjs"
+    ],
+    "selectorOrRef": [
+      "package/ego-browser/src/driver/pointer.ts",
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "sequence": [
+      "package/ego-browser/src/page-ledger.ts"
+    ],
+    "sessionId": [
+      "package/ego-browser/src/element-resolver.test.mjs",
+      "package/ego-browser/src/native-gate.test.mjs"
+    ],
+    "settleExpression": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "signature": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "siteId": [
+      "package/ego-browser/src/learning/index.ts",
+      "package/ego-browser/src/learning/validate-learning-format.ts"
+    ],
+    "siteRoot": [
+      "package/ego-browser/src/learning/index.ts"
+    ],
+    "situation": [
+      "package/ego-browser/src/browser-runtime.ts"
+    ],
+    "skill": [
+      "plugins/scripts/package-plugins.mjs"
+    ],
+    "skillName": [
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "skipped": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "source": [
+      "package/ego-browser/src/cdp-eval.ts",
+      "package/ego-browser/src/learning/index.ts",
+      "package/ego-browser/src/output-sink.ts",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "sourceLine": [
+      "package/ego-browser/src/run.ts"
+    ],
+    "space": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs"
+    ],
+    "spaceId": [
+      "package/ego-browser/src/native-gate.test.mjs",
+      "package/ego-browser/src/native-gate.ts",
+      "package/ego-browser/src/page-discovery.ts",
+      "package/ego-browser/src/page-ledger.ts"
+    ],
+    "startFragment": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "startHtml": [
+      "package/ego-browser/src/clipboard.ts"
+    ],
+    "state": [
+      "package/ego-browser/src/driver/page-waits.test.mjs",
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "statusLabel": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "strictStabilityExpression": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "suffix": [
+      "package/ego-browser/src/learning/check-domain-learning.ts"
+    ],
+    "suggestion": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "support": [
+      "plugins/ego/tests/claude-plugin-mode-isolation.test.mjs"
+    ],
+    "supported": [
+      "package/ego-browser/src/page-model.test.mjs"
+    ],
+    "tab": [
+      "package/ego-browser/src/page-model.test.mjs",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "tag": [
+      "package/ego-browser/src/element-resolver.ts",
+      "package/ego-browser/src/workflows.test.mjs"
+    ],
+    "target": [
+      "package/ego-browser/src/driver/page-actions.ts"
+    ],
+    "targetId": [
+      "package/ego-browser/src/browser-runtime.test.mjs",
+      "package/ego-browser/src/driver/downloads.ts",
+      "package/ego-browser/src/native-gate.test.mjs",
+      "package/ego-browser/src/page-discovery.ts",
+      "package/ego-browser/src/page-ledger.ts",
+      "package/ego-browser/src/page-model.test.mjs",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "taskName": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "text": [
+      "package/ego-browser/src/browser-runtime.ts",
+      "package/ego-browser/src/clipboard.test.mjs",
+      "package/ego-browser/src/clipboard.ts",
+      "package/ego-browser/src/helpers.ts"
+    ],
+    "timeout": [
+      "package/ego-browser/src/helpers.ts"
+    ],
+    "timeoutMs": [
+      "package/ego-browser/src/browser-runtime.ts",
+      "package/ego-browser/src/driver/downloads.ts",
+      "package/ego-browser/src/driver/page-waits.ts",
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "timing": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "title": [
+      "package/ego-browser/scripts/real-browser-e2e/fixture.mjs",
+      "package/ego-browser/src/page-model.ts",
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "toolName": [
+      "package/ego-browser/src/learning/index.ts",
+      "package/ego-browser/src/learning/validate-learning-format.ts"
+    ],
+    "total": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs",
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "totalAssertions": [
+      "package/ego-browser/scripts/real-browser-e2e/runner.mjs"
+    ],
+    "totalCount": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "type": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "typeLabel": [
+      "package/ego-browser/src/learning/validate-learning-format.ts"
+    ],
+    "unknown": [
+      "package/ego-browser/src/clipboard.ts",
+      "package/ego-browser/src/driver/page-keyboard.ts"
+    ],
+    "untracked": [
+      "package/ego-browser/src/page-model.ts"
+    ],
+    "upper": [
+      "package/ego-browser/src/driver/page-keyboard.ts"
+    ],
+    "url": [
+      "package/ego-browser/src/http.ts",
+      "package/ego-browser/src/learning/check-domain-learning.ts",
+      "package/ego-browser/src/output-sink.ts"
+    ],
+    "userLineNumber": [
+      "package/ego-browser/src/run.ts"
+    ],
+    "values": [
+      "package/ego-browser/src/help-runtime.ts"
+    ],
+    "version": [
+      "package/ego-browser/scripts/build.mjs",
+      "package/ego-browser/src/skill-package.test.mjs",
+      "plugins/ego/tests/plugin-packaging.test.mjs"
+    ],
+    "visibility": [
+      "package/ego-browser/src/element-resolver.ts"
+    ],
+    "waitUntil": [
+      "package/ego-browser/src/driver/page-waits.ts"
+    ],
+    "workspace": [
+      "package/ego-browser/src/learning/index.ts"
+    ]
+  }
+}
