@@ -1,0 +1,28 @@
+{
+  "name": "@ego/ego-lite",
+  "version": "0.1.0",
+  "description": "The fastest browser for AI agents to run web automation",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "ego-lite": "./src/index.ts"
+  },
+  "scripts": {
+    "dev": "bun --hot run src/index.ts",
+    "build": "bun build src/index.ts --outdir ./dist",
+    "test": "bun test",
+    "typecheck": "tsgo --noEmit -p tsconfig.json",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "check": "bun run typecheck && bun run lint && bun run format"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/bun": "latest",
+    "bun-types": "npm:@types/bun@latest",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.6.0"
+  }
+}
